@@ -1,6 +1,6 @@
-package com.example.hoomanbenchmark
+package com.example.hoomanbenchmark.navigation
 
 sealed class Screen(val route: String){
     object StartButton : Screen("start_button")
-    object GameList : Screen("game_list")
+    object Home : Screen("Home")
 }
